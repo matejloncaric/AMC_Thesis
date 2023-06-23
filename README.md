@@ -1,2 +1,6 @@
-# AMC_Thesis
-Submitted in partial fulfillment for the degree of Master of Science at the University of Amsterdam
+# Predicting Postoperative Pancreatic Fistula in Patients With Intraductal Papillary Mucinous Neoplasm (IPMN) Using Machine Learning Models
+
+
+**Abstract**: Intraductal Papillary Mucinous Neoplasm (IPMN) is a common pancreatic tumor known for its potential to develop malignancy or influence the development of other malignant tumors. Postoperative Pancreatic Fistula (POPF) is a significant complication following pancreatic resection, affecting a substantial proportion of patients. Existing predictive models for POPF have predominantly been developed using CT scans, which are often unavailable for patients with IPMN. This study aims to develop a comprehensive predictive model for POPF using MRI images, specifically targeting patients with IPMN. The study utilizes deep learning-based radiomic features extracted from a pre-trained convolutional neural network, alongside traditional hand-crafted radiomics, to train standard machine learning classifiers. A proof-of-concept approach is employed, extracting features from bounding boxes rather than relying on resource-intensive manual or automatic segmentations, with the potential to streamline the radiomic analysis process and reduce inter-observer variability. The best-performing model based on deep features achieved an area under the curve of 0.82, while the combined model utilizing hand-crafted and deep-learning radiomic features achieved an AUC of 0.70. 
+
+Note: To ensure full compliance with patient privacy regulations, the data cannot be made publicly available.
